@@ -27,7 +27,7 @@ function Home() {
         </Card>
       </div>
       <div className="login">
-        <Button variant="secondary" onClick={() => history.push('/login')}>Click Here to Login</Button>
+        <Button  className="loginButton" onClick={() => history.push('/login')}>Click Here to Login</Button>
       </div>
     </>
   );

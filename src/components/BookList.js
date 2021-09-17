@@ -17,7 +17,7 @@ function BookList() {
     return (
         <>
 
-            <div className="table">
+            <div className="booksTable">
                 <Table style={{ color: "white" }}>
                     <thead >
                         <tr>
