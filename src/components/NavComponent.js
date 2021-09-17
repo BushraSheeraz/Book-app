@@ -21,7 +21,7 @@ function NavComponent() {
                         <Container>
                             <Navbar.Brand href="/">Books</Navbar.Brand>
                             <Nav className="me-auto">
-                                <Nav.Link as={Link} to="/">About</Nav.Link>
+                                <Nav.Link as={Link} to="/">Home</Nav.Link>
                                 <Nav.Link as={Link} to="/login">Login</Nav.Link>
                             </Nav>
                         </Container>

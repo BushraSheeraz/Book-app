@@ -23,7 +23,7 @@ function Login() {
                             <Form.Label>Password</Form.Label>
                             <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
-                        <Button variant="secondary" type="submit" onClick={() => history.push('/books') }>
+                        <Button className="loginButton" type="submit" onClick={() => history.push('/books') }>
                             Submit
                         </Button>
                     </Form>
